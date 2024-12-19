@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+        }
+        .left-column {
+            width: 25%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .right-column {
+            width: 70%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .student-info {
+            margin-bottom: 20px;
+        }
+        .student-info h2 {
+            font-size: 18px;
+            color: #333;
+        }
+        .student-info p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .card {
+            background-color: #f9f9f9;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+        }
+        .card h3 {
+            margin-bottom: 10px;
+        }
+        .card table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .card table, .card th, .card td {
+            border: 1px solid #ddd;
+        }
+        .card th, .card td {
+            padding: 8px;
+            text-align: left;
+        }
+        .card th {
+            background-color: #f2f2f2;
+        }
+        .logout-button {
+            background-color: #f44336;
+        }
+        .logout-button:hover {
+            background-color: #e53935;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Left Column: Student Info -->
+        <div class="left-column">
+            <h2>Student Details</h2>
+            <div class="student-info">
+                <h3>Almighty Coders</h3>
+                <p><strong>ID:</strong> 1070</p>
+                <p><strong>Email:</strong> BscCsit13@gmail.com.com</p>
+                <p><strong>Course:</strong> Computer Science</p>
+                <p><strong>Year:</strong> 1st Year</p>
+            </div>
+
+            <!-- Logout Button -->
+            <a href="/logout" class="button logout-button">Logout</a>
+        </div>
+
+        <!-- Right Column: Student Data -->
+        <div class="right-column">
+            <h1>Welcome to Your Dashboard</h1>
+
+            <!-- Attendance Card -->
+            <div class="card">
+                <h3>Attendance</h3>
+                <table>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Attendance</th>
+                    </tr>
+                    <tr>
+                        <td>Mathematics</td>
+                        <td>85%</td>
+                    </tr>
+                    <tr>
+                        <td>Computer Science</td>
+                        <td>90%</td>
+                    </tr>
+                    <tr>
+                        <td>Physics</td>
+                        <td>80%</td>
+                    </tr>
+                    <tr>
+                        <td>Chemistry</td>
+                        <td>88%</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Marksheet Card -->
+            <div class="card">
+                <h3>Marksheet</h3>
+                <table>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                        <th>Grade</th>
+                    </tr>
+                    <tr>
+                        <td>Mathematics</td>
+                        <td>88</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>Computer Science</td>
+                        <td>92</td>
+                        <td>A+</td>
+                    </tr>
+                    <tr>
+                        <td>Physics</td>
+                        <td>75</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>Chemistry</td>
+                        <td>80</td>
+                        <td>B+</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Semester Info Card -->
+            <div class="card">
+                <h3>Current Semester</h3>
+                <p><strong>Semester:</strong> 6th Semester</p>
+                <p><strong>Start Date:</strong> January 2024</p>
+                <p><strong>End Date:</strong> June 2024</p>
+            </div>
+
+            <!-- Event Schedule Card -->
+            <div class="card">
+                <h3>Event Schedule</h3>
+                <table>
+                    <tr>
+                        <th>Event</th>
+                        <th>Date</th>
+                        <th>Location</th>
+                    </tr>
+                    <tr>
+                        <td>Tech Fest</td>
+                        <td>March 15, 2024</td>
+                        <td>Campus Auditorium</td>
+                    </tr>
+                    <tr>
+                        <td>Sports Meet</td>
+                        <td>April 10, 2024</td>
+                        <td>Campus Grounds</td>
+                    </tr>
+                    <tr>
+                        <td>Annual Day</td>
+                        <td>May 25, 2024</td>
+                        <td>Main Hall</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

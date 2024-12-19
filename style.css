@@ -4,7 +4,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -14,8 +13,9 @@ body {
   /* Container for image and text */
   .image-container {
     position: relative; /* Relative positioning for text overlay */
-    width: 600px;
-    height: 400px;
+    /* width: 600px;
+    height: 400px; */
+    background-size: cover;
   }
   
   .image-container img {
@@ -31,7 +31,7 @@ body {
     top: 10%; /* Center vertically */
     left: 60%; /* Center horizontally */
     transform: translate(-20%, -40%); /* Perfect centering */
-    color: rgb(30, 126, 236); /* Text color */
+    color: rgb(251, 0, 0); /* Text color */
     font-size: 34px; /* Text size */
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Shadow for readability */

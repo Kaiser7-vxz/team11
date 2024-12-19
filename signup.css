@@ -1,0 +1,8 @@
+body{
+    margin: 0; /* Remove default margins */
+    height: 100vh; /* Full viewport height */
+    background-image: url(aiims2.jpeg); /* Replace with your image */
+    background-size: cover; /* Make the image cover the entire body */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+}

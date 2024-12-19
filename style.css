@@ -126,29 +126,32 @@ nav ul li .sign-in:hover, nav ul li .apply-now:hover {
     border-color: #333;
     border-radius: 10%;
     margin: 10px;
-    height: 150px;
-    width: 200px;
+    height: 200px;
+    width: 250px;
     background-color: rgb(0, 174, 255);
+    background-size: cover;
 
 }
 .it {
     border-color: #333;
     border-radius: 10%;
     margin: 10px;
-    height: 150px;
-    width: 200px;
+    height: 200px;
+    width: 250px;
     background-color: rgb(0, 174, 255);
     display: flex;
+    background-size: cover;
 
 }
 .bbs {
     border-color: #333;
     border-radius: 10%;
     margin: 10px;
-    height: 150px;
-    width: 200px;
+    height: 200px;
+    width: 250px;
     background-color: rgb(0, 174, 255);
     display: flex;
+    background-size: cover;
 
 }
 

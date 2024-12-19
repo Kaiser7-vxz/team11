@@ -11,4 +11,5 @@ document.addEventListener("DOMContentLoaded", function () {
     // Set the text for the typing animation dynamically
     typingText.textContent = "Welcome to our college";
   });
-  
+  // Placeholder script for future enhancements, like animations or dynamic content
+console.log("About page loaded successfully!");

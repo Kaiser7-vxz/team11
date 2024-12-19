@@ -1,5 +1,68 @@
 
 /* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  /* Container for image and text */
+  .image-container {
+    position: relative; /* Relative positioning for text overlay */
+    width: 600px;
+    height: 400px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Make sure the image scales correctly */
+    border-radius: 8px; /* Optional rounded corners */
+  }
+  
+  /* Text overlay with typing animation */
+  .overlay-text {
+    position: absolute; /* Position text over image */
+    top: 10%; /* Center vertically */
+    left: 60%; /* Center horizontally */
+    transform: translate(-20%, -40%); /* Perfect centering */
+    color: rgb(30, 126, 236); /* Text color */
+    font-size: 34px; /* Text size */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Shadow for readability */
+    white-space: nowrap; /* Ensure text doesn’t wrap */
+    overflow: hidden; /* Hide text until it's typed */
+    border-right: 2px solid white; /* Typing cursor */
+    width: 0; /* Initially, hide all text */
+    animation: typing 6s steps(30, end), blink 0.7s step-end infinite; /* Add typing and cursor blinking */
+  }
+  
+
+/* Typing animation keyframes */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%; /* Reveal all the text */
+  }
+}
+
+/* Cursor blink animation */
+@keyframes blink {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
 * {
     margin: 0;
     padding: 0;

@@ -1,0 +1,102 @@
+
+/* Reset some default styles */
+.image-container {
+    position: relative; /* Create a relative positioning context */
+    width: 600px; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+  }
+  
+  /* Image Styling */
+  .image-container img {
+    width: 100%; /* Make image fill the container */
+    height: 100%; /* Stretch image to fit */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners */
+  }
+  
+  /* Overlay Text Styling */
+  .overlay-text {
+    position: absolute; /* Position the text over the image */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for perfect centering */
+    color: white; /* Text color */
+    font-size: 24px; /* Text size */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Shadow for better readability */
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0073e6;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+}
+
+nav ul li .sign-in, nav ul li .apply-now {
+    padding: 8px 15px;
+    background-color: #fff;
+    color: #0073e6;
+    border-radius: 5px;
+}
+
+nav ul li .sign-in:hover, nav ul li .apply-now:hover {
+    background-color: #0073e6;
+    color: white;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+main h1, main h2 {
+    color: #0073e6;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}

@@ -156,21 +156,7 @@ nav ul li .sign-in:hover, nav ul li .apply-now:hover {
 }
 
 
-/* div {
-    border: 10px;
-    width: 50px;
-    border-color: chartreuse;
-}
-div {
-    border: 10px;
-    width: 50px;
-    border-color: chartreuse;
-}
-div {
-    border: 10px;
-    width: 50px;
-    border-color: chartreuse;
-}
+
      */
 .box1 {
     border-color: #333;
@@ -222,21 +208,28 @@ footer {
     display: flex;
 } */
 
-#courses{
-    display: flex;
-    flex-direction: column;
-    
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
 }
-.bhm{
-  padding-bottom: 80px;
-  margin-bottom: 40px;
-  border: 5px solid black;
+
+.fact {
+  text-align: center;
 }
-.bbs{
-  margin-top: 40px;
-  border: 5px solid black;
+
+.fact img {
+  width: 300px;
+  height: 250px;
+  display: block;
+  margin: 0 auto 10px;
 }
-.it{
-  margin-bottom: 40px;
-  border: 5px solid black;
+
+.fact p {
+  font-size: 16px;
+  font-weight: bold;
+}
+h3 {
+  color: #0073e6;
 }

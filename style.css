@@ -59,8 +59,84 @@ nav ul li .sign-in:hover, nav ul li .apply-now:hover {
     background-color: #0073e6;
     color: white;
 }
+.bhm {
+    border-color: #333;
+    border-radius: 10%;
+    margin: 10px;
+    height: 150px;
+    width: 200px;
+    background-color: rgb(0, 174, 255);
 
-main {
+}
+.it {
+    border-color: #333;
+    border-radius: 10%;
+    margin: 10px;
+    height: 150px;
+    width: 200px;
+    background-color: rgb(0, 174, 255);
+    display: flex;
+
+}
+.bbs {
+    border-color: #333;
+    border-radius: 10%;
+    margin: 10px;
+    height: 150px;
+    width: 200px;
+    background-color: rgb(0, 174, 255);
+    display: flex;
+
+}
+
+
+/* div {
+    border: 10px;
+    width: 50px;
+    border-color: chartreuse;
+}
+div {
+    border: 10px;
+    width: 50px;
+    border-color: chartreuse;
+}
+div {
+    border: 10px;
+    width: 50px;
+    border-color: chartreuse;
+}
+     */
+.box1 {
+    border-color: #333;
+    border-radius: 10%;
+    margin: 10px;
+    height: 150px;
+    width: 200px;
+    background-color: rgb(251, 251, 251);
+    text-align: center;
+
+}
+.box2 {
+    border-color: #333;
+    border-radius: 10%;
+    margin: 10px;
+    height: 150px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+.box3 {
+    border-color: #333;
+    border-radius: 10%;
+    margin: 10px;
+    height: 150px;
+    width: 200px;
+    background-color: rgb(251, 251, 251);
+    text-align: center;
+
+}
+     main {
     padding: 40px 20px;
 }
 
@@ -74,4 +150,12 @@ footer {
     text-align: center;
     padding: 10px;
     margin-top: 40px;
+}
+
+/* #faculty{
+    display: flex;
+} */
+
+#courses{
+    display: inline-flex;
 }

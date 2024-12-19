@@ -223,41 +223,20 @@ footer {
 } */
 
 #courses{
-    display: inline-flex;
-}
-h1, h2, h3 {
-    color: #0073e6;
-}
-
-p {
-    font-size: 1em;
-    line-height: 1.6;
- }
-.wallpaper {
-    opacity: 75%;
-   align-items: baseline;
-} 
-.container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 50px;
-  }
-  .fact {
-    text-align: center;
-    margin-left: 20%;
-  }
-  
-  .fact img {
-    width: 250px;
-    height: 300px;
-    display: block;
-    border:#333;
+    flex-direction: column;
     
-    margin: 10px auto 10px;
-  }
-  
-  .fact p {
-    font-size: 16px;
-    font-weight: bold;
-  }
+}
+.bhm{
+  padding-bottom: 80px;
+  margin-bottom: 40px;
+  border: 5px solid black;
+}
+.bbs{
+  margin-top: 40px;
+  border: 5px solid black;
+}
+.it{
+  margin-bottom: 40px;
+  border: 5px solid black;
+}

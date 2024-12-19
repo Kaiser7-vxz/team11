@@ -1,5 +1,30 @@
 
 /* Reset some default styles */
+.image-container {
+    position: relative; /* Create a relative positioning context */
+    width: 600px; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+  }
+  
+  /* Image Styling */
+  .image-container img {
+    width: 100%; /* Make image fill the container */
+    height: 100%; /* Stretch image to fit */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners */
+  }
+  
+  /* Overlay Text Styling */
+  .overlay-text {
+    position: absolute; /* Position the text over the image */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for perfect centering */
+    color: white; /* Text color */
+    font-size: 24px; /* Text size */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Shadow for better readability */
+  }
 * {
     margin: 0;
     padding: 0;

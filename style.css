@@ -220,5 +220,20 @@ footer {
 } */
 
 #courses{
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
+    
+}
+.bhm{
+  padding-bottom: 80px;
+  margin-bottom: 40px;
+  border: 5px solid black;
+}
+.bbs{
+  margin-top: 40px;
+  border: 5px solid black;
+}
+.it{
+  margin-bottom: 40px;
+  border: 5px solid black;
 }
